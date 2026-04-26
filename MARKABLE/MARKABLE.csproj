@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	 <Copyright>Copyright © 2026 SpFirefly</Copyright>
+	 <Authors>SpFirefly</Authors>
+	 <Company>SpFirefly</Company>
+	<ApplicationIcon>Images\MARKABLE.ico</ApplicationIcon>
+	<OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="SmileySans-Oblique.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TagLibSharp" Version="2.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\SmileySans.ttf" />
+  </ItemGroup>
+
+</Project>
